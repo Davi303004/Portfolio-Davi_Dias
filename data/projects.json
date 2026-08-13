@@ -1,0 +1,44 @@
+{
+    "projects": [ {
+        "id": "PP1",
+        "title": "Paciência",
+        "description": "Jogo de Paciência desenvolvido em C# jogado via terminal, com interface de usuário baseada em texto. O jogo permite que os jogadores embaralhem e distribuam cartas, movam cartas entre pilhas e verifiquem se o jogo foi vencido.",
+        "image" : "assets/img/projects/PP1.png",
+        "tecnologies": [
+            "C#",
+            "POO"],
+        "github": "https://github.com/Davi303004/PP1-Paciencia",
+        "featured": false
+    },
+    {
+        "id":"PP2",
+        "title": "Calculadora de Depreciação de Ativos",
+        "description": "Tratamento de dados de depreciação de ativos, com base em métodos contábeis, para auxiliar empresas a calcular a perda de valor de seus ativos ao longo do tempo. A calculadora cria uma visualização gráfica da depreciação de um ativo específico escolhido pelo usuário, permitindo que ele veja como o valor do ativo diminui ao longo do tempo.",
+        "image" : "assets/img/projects/PP2.png",
+        "tecnologies": [
+            "Python",
+            "Pandas",
+            "Plotly",
+            "Data Analysis",
+            "Data Visualization"
+        ],
+        "github": "https://github.com/Davi303004/Py-Database_Analysis/blob/main/PP1-Calculadora%20de%20Deprecia%C3%A7%C3%A3o%20de%20Ativos.ipynb",
+        "featured": true
+    },
+    {
+        "id":"PP3",
+        "title": "Dashboard de Chamados",
+        "description": "Simulação de um Dashboard de Chamados utilizando Matplotlib e Pandas, com base em dados fictícios de chamados de suporte técnico. O dashboard permite que os usuários visualizem informações sobre o número de chamados abertos, fechados e pendentes, bem como o tempo médio de resolução dos chamados.",
+        "image" : "assets/img/projects/PP3.png",
+        "tecnologies": [
+            "Python",
+            "Pandas",
+            "Matplotlib",
+            "Data Analysis",
+            "Data Visualization"
+        ],
+        "github": "https://github.com/Davi303004/Py-Database_Analysis/blob/main/PP2-Dashboard%20de%20Chamados.ipynb",
+        "featured": true
+
+    }]
+}
