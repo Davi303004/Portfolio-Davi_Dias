@@ -31,33 +31,6 @@
     margin: 10px;
 }
 
-.course-btn, .project-btn{
-    background-color:#63e6be;
-    color:#2d333d;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    width: 200px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-button img{
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
-}
-
-button:hover{
-    background-color:#224a3d;
-    color:#f5f7fa;
-    text-decoration: underline;
-    border: 3px solid #f5f7fa;
-}
 
 /* Sobre Mim */
 
@@ -219,3 +192,10 @@ button:hover{
     }
 
 }
+
+/* Projetos */
+
+
+
+/* Certificados */
+

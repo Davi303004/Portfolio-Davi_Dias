@@ -1,0 +1,241 @@
+{
+    "certificate" : [
+        {
+            "id": "enap-001",
+            "title":"Aprendendo com Python",
+            "end_date": "16/06/2025",
+            "workload": "20",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Variáveis, Operações, Condições",
+                "Loops,Funções",
+                "Estruturas Básicas de Dados",
+                "Programação Orientada a Objetos",
+                "Uso e Aplicações de Bibliotecas"
+            ],
+            "tags" : [
+                "Python",
+                "Backend",
+                "Course"
+            ]
+        },
+        {
+           "id": "oracle-001",
+            "title":"Database Foundations",
+            "end_date": "18/03/2024",
+            "workload": "40",
+            "img" : "assets/documents/",
+            "institution": "ORACLE Academy",
+            "content" : [
+                "CRUD",
+                "DDL, DML, DQL",
+                "Consultas, Joins e CTEs ",
+                "Modelo Conceitual, Modelo Lógico e Modelo Físico"
+            ],
+            "tags" : [
+                "Database",
+                "Data",
+                "MySQL",
+                "Course"
+            ] 
+        },
+        {
+            "id": "enap-002",
+            "title":"Excel Avançado",
+            "end_date": "29/05/2025",
+            "workload": "30",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Cálculos com Fórmulas e Aplicação de Funções",
+                "Validação de Dados e Aplicação de Filtros Avançados",
+                "Tabeelas Dinâmicas",
+                "Formulários e Importação de Dados",
+                "Banco de Dados",
+                "Macros e Visual Basic for Application"
+            ],
+            "tags" : [
+                "Excel",
+                "Data",
+                "Course"
+            ]
+        },
+        {
+            "id": "enap-003",
+            "title":"Introdução ao Excel",
+            "end_date": "22/05/2025",
+            "workload": "25",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Visão Geral do Excel",
+                "Trabalhando em uma planilha eletrônica",
+                "Apresentado os dados"
+            ],
+            "tags" : [
+                "Excel",
+                "Data",
+                "Course"
+            ]
+        },
+        {
+            "id": "enap-004",
+            "title":"Excel Intermediário",
+            "end_date": "26/05/2025",
+            "workload": "30",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Introdução ao Excel Intermediário",
+                "Trabalhando com fórmulas e funções do Excel",
+                "Formas de visualização de dados no Excel",
+                "Outras funcionalidades de automatização do Excel"
+            ],
+            "tags" : [
+                "Excel",
+                "Data",
+                "Course"
+            ]
+        },
+        {
+           "id": "enap-005",
+            "title":"Habilidades de Resolução de Problemas",
+            "end_date": "14/07/2025",
+            "workload": "25",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Introdução às habilidades de resolução de problemas e autoavaliação",
+                "Introdução à estrutura LEADS",
+                "Liderança",
+                "Comunicação Efetiva",
+                "Pensamento Analítico",
+                "Tomada de Decisões",
+                "Implementação de Soluções",
+                "Pós-avaliação e Teste de Personalidade"
+            ],
+            "tags" : [
+                "Soft Skills",
+                "Comunication",
+                "Course"
+            ] 
+        },
+        {
+            "id": "rocket-001",
+            "title":"Introdução ao C#",
+            "end_date": "13/12/2025",
+            "workload": "7",
+            "img" : "assets/documents/",
+            "institution": "Rocketseat",
+            "content" : [
+                "Fundamentos do C#",
+                "Fundamentos do .NET",
+                "Pilares da Programação Orientada a Objetos",
+                "Construção de uma API",
+                "Validações de dados com FluentValidation",
+                "Banco de Dados e Entity Framework"
+            ],
+            "tags" : [
+                "C#",
+                "Backend",
+                "Course"
+            ]
+        },
+        {
+            "id": "cisco-001",
+            "title":"Introduction to Cybersecurity",
+            "end_date": "30/03/2026",
+            "workload": "40",
+            "img" : "assets/documents/",
+            "institution": "Cisco Academy",
+            "content" : [
+                "Conhecimento Basico sobre segurança online e o impacto em potencial",
+                "Ameaças Tecnológicas mais comuns e vulnerabilidades",
+                "Como se proteger enquanto em rede",
+                "Como organizações podem proteger suas operações contra ataques"
+            ],
+            "tags" : [
+                "Cybersecurity",
+                "Technology",
+                "Course"
+            ]
+        },
+        {
+            "id": "enap-006",
+            "title":"Introdudução à Ciência de Dados - Conceitos e Ferramentas",
+            "end_date": "02/02/2026",
+            "workload": "4",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Diferencas entre BI, DW e MD",
+                "Mineração de dados",
+                "Diferenças entre Ciência de Dados, aprendizado de máquina e mineração de dados",
+                "O software Knime para Ciência de Dados",
+                "Técnicas essenciais e qualidades dos modelos"
+            ],
+            "tags" : [
+                "Data",
+                "Data Science",
+                "Course"
+            ]
+        },
+        {
+            "id": "enap-007",
+            "title":"Introdudução à Ciência de Dados - Estatísitca Essencial",
+            "end_date": "01/07/2026",
+            "workload": "6",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Estatística Descritiva",
+                "Testes de Hipóteses"
+            ],
+            "tags" : [
+                "Data",
+                "Data Science",
+                "Course"
+            ]
+        },
+        {
+            "id": "enap-008",
+            "title":"Introdudução à Ciência de Dados - Tratamento de Dados",
+            "end_date": "23/06/2026",
+            "workload": "2",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Limpeza de Dados",
+                "Redução de Dados",
+                "Normalização e Discretização"
+            ],
+            "tags" : [
+                "Data",
+                "Data Science",
+                "Course"
+            ]
+        },
+        {
+            "id": "enap-009",
+            "title":"Aplicação do Power BI para Aprimoramento da Gestão",
+            "end_date": "16/05/2025",
+            "workload": "25",
+            "img" : "assets/documents/",
+            "institution": "ENAP",
+            "content" : [
+                "Obtenção e Transformação de Dados",
+                "Modelagem dos Dados",
+                "Cálculos no Power BI",
+                "Visualização no Power BI",
+                "Publicação e Automação no Power BI Online"
+            ],
+            "tags" : [
+                "Data",
+                "Data Visualization",
+                "Power BI",
+                "Course"
+            ]
+        }
+    ]
+}

@@ -12,7 +12,7 @@
     <!-- Estilização Cabeçalho -->
     <link rel="stylesheet" href="css/header.css">
     <!-- Estilização Conteúdo-->
-     <link rel="stylesheet" href="css/content.css">
+     <link rel="stylesheet" href="css/home_content.css">
     
     <link rel="icon" href="assets/img/favicon.ico" type="image/png">
     <script src="js/script.js"></script>
@@ -177,9 +177,13 @@
     </div>
 
     <nav class="project-navbar"></nav>
-    <div class="container">
+    <div id="project-container" class="container">
+        <!-- JavaScript irá inserir os Projetos aqui! -->
 
-        <button class="project-btn" id="redirect-project">Mais Projetos <img src="assets/img/arrow_black.png" alt="Seta"></button>
+        <div class="btn-container">
+            <button class="btn" id="btn-project">Mais Projetos <i class="arrow right"></i></button>
+        </div>
+        
     </div>
 
     <div class="section">
@@ -187,9 +191,12 @@
     </div>
 
     <nav class="course-navbar"></nav>
-    <div class="container">
+    <div id="course-container" class="container">
+        <!-- JavaScript irá inserir os certificados aqui! -->
 
-        <button class="course-btn" id="redirect-course">Mais Cursos <img src="assets/img/arrow_black.png" alt="Seta"></button>
+        <div class="btn-container">
+            <button class="btn" id="btn-course">Mais Cursos <i class="arrow right"></i></button>
+        </div>
     </div>
 </body>
 </html>

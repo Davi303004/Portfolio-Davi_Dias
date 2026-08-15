@@ -40,5 +40,36 @@
         "github": "https://github.com/Davi303004/Py-Database_Analysis/blob/main/PP2-Dashboard%20de%20Chamados.ipynb",
         "featured": true
 
-    }]
+    },
+    {
+        "id":"PP4",
+        "title": "Pipeline ETL de Inventário",
+        "description": "Limpeza de dados retirando duplicatas e padronizando os dados que serão salvos em um Banco de Dados com as informações mais significantes para a realização de consultas fidedignas.",
+        "image" : "assets/img/projects/PP4.png",
+        "tecnologies": [
+            "Python",
+            "Data Processing",
+            "Pandas",
+            "SQLAlchemy",
+            "SQLite"
+        ],
+        "github": "https://github.com/Davi303004/Py-ETL_Pipeline/blob/main/PP1-Pipeline%20ETL%20de%20Invent%C3%A1rio.ipynb",
+        "featured": true
+    },
+    {
+        "id":"PP5",
+        "title": "Comparação de Inventários",
+        "description": "Observando as semelhanças e diferenças presentes em duas bases de dados de inventários que ocorreram em períodos de tempos diferentes, após a comparação, uma exibição das diferenças é apresentada",
+        "image" : "assets/img/projects/PP5.png",
+        "tecnologies": [
+            "Python",
+            "Pandas",
+            "Matplotlib",
+            "Data Analysis",
+            "Data Visualization"
+        ],
+        "github": "https://github.com/Davi303004/Py-ETL_Pipeline/blob/main/PP2%20-%20Compara%C3%A7%C3%A3o%20de%20Invent%C3%A1rios.ipynb",
+        "featured": true
+    }
+    ]
 }

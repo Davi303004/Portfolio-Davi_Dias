@@ -40,3 +40,54 @@ p{
     font-weight: 400;
     line-height: 1.7;
 }
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+
+.btn{
+    background-color: transparent;
+    color:#f5f7fa;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #63e6be;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+.arrow{
+  border: 3px solid #f5f7fa;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 5px;
+}
+
+.right{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.btn:hover{
+    background-color:#63e6be;
+    color:#2d333d;
+    border: none;
+}
+.btn:hover .arrow{
+    border: 3px solid #2d333d;
+    border-width: 0 3px 3px 0;
+}
