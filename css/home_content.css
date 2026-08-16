@@ -195,7 +195,36 @@
 
 /* Projetos */
 
+#project-container{
+    justify-content:flex-start;
+    gap:10px;
+}
 
+.project-link {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: auto;
+}
+
+.project-link img{
+    width: 32px;
+    height: 32px;
+
+    padding: 6px;
+    margin:5px;
+
+    object-fit: contain;
+
+    background-color:#BAE9DC;
+
+    border: none;
+    border-radius: 50%;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
 
 /* Certificados */
 
