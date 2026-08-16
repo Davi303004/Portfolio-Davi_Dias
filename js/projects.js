@@ -1,18 +1,28 @@
 async function loadProjects(){
+    const currentPath = window.location.pathname;
 
-    const response = await fetch('data/projects.json');
+     const isHomePage =
+        currentPath.endsWith('/') ||
+        currentPath.endsWith('/index.html');
+
+    const isProjectsPage =
+        currentPath.endsWith('/projects.html');
+
+    const dataPath =
+        currentPath.includes('/pages/') ? '../data/projects.json' : 'data/projects.json';
+
+    
+    const response = await fetch(dataPath);
 
     if(!response.ok){
         throw new Error("Não foi possível carregar os projetos");
     }
-
+    
     const data = await response.json();
-
-    const currentPage = window.location.pathname.split('/').pop();
 
     let projects = data.projects
 
-    if( currentPage === "index.html"){
+    if(isHomePage){
         projects = projects.filter(project => project.featured === true);
     }
 
@@ -36,14 +46,13 @@ function renderProjects(projects){
             class="card-img">
             
         <div class="card-content">
+            <div class="card-tags">
+                ${project.technologies.map(tech => `<span class="tag">${tech}</span>`).join('')}
+            </div>
             <h3 class="card-title">${project.title}</h3>
         
             <p>${project.description}</p>
         
-            <div class="card-tags">
-                ${project.technologies.map(tech => `<span class="tag">${tech}</span>`).join('')}
-            </div>
-
             <div class="project-link">
                 <a
                     href="${project.github}"
