@@ -20,7 +20,7 @@ async function loadProjects(){
     
     const data = await response.json();
 
-    let projects = data.projects
+    let projects = data.projects;
 
     if(isHomePage){
         projects = projects.filter(project => project.featured === true);
@@ -59,6 +59,8 @@ function renderProjects(projects){
                     target="_blank"
                     rel="noopener noreferrer">
                     <img
+                        onmouseenter="redirectImg(this)"
+                        onmouseleave="githubImg(this)"
                         src="assets/img/icons/github_icon.png"
                         alt="GitHub">
                 </a>
@@ -67,6 +69,13 @@ function renderProjects(projects){
 
         container.appendChild(card);
     });
+}
+function redirectImg(obj){
+    obj.src = "assets/img/icons/redirect_icon.png"
+}
+
+function githubImg(obj){
+    obj.src = "assets/img/icons/github_icon.png"
 }
 
 loadProjects().catch(error => {

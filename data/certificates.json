@@ -1,11 +1,11 @@
 {
-    "certificate" : [
+    "certificates" : [
         {
             "id": "enap-001",
             "title":"Aprendendo com Python",
             "end_date": "16/06/2025",
             "workload": "20",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/",
             "institution": "ENAP",
             "content" : [
                 "Variáveis, Operações, Condições",
@@ -18,14 +18,15 @@
                 "Python",
                 "Backend",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
            "id": "oracle-001",
             "title":"Database Foundations",
             "end_date": "18/03/2024",
             "workload": "40",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/oracle-001.pdf",
             "institution": "ORACLE Academy",
             "content" : [
                 "CRUD",
@@ -38,14 +39,15 @@
                 "Data",
                 "MySQL",
                 "Course"
-            ] 
+            ],
+            "featured":true
         },
         {
             "id": "enap-002",
             "title":"Excel Avançado",
             "end_date": "29/05/2025",
             "workload": "30",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/enap-002.pdf",
             "institution": "ENAP",
             "content" : [
                 "Cálculos com Fórmulas e Aplicação de Funções",
@@ -59,14 +61,15 @@
                 "Excel",
                 "Data",
                 "Course"
-            ]
+            ],
+            "featured":true
         },
         {
             "id": "enap-003",
             "title":"Introdução ao Excel",
             "end_date": "22/05/2025",
             "workload": "25",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/",
             "institution": "ENAP",
             "content" : [
                 "Visão Geral do Excel",
@@ -77,14 +80,15 @@
                 "Excel",
                 "Data",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
             "id": "enap-004",
             "title":"Excel Intermediário",
             "end_date": "26/05/2025",
             "workload": "30",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/",
             "institution": "ENAP",
             "content" : [
                 "Introdução ao Excel Intermediário",
@@ -96,14 +100,15 @@
                 "Excel",
                 "Data",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
            "id": "enap-005",
             "title":"Habilidades de Resolução de Problemas",
             "end_date": "14/07/2025",
             "workload": "25",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/enap-005.pdf",
             "institution": "ENAP",
             "content" : [
                 "Introdução às habilidades de resolução de problemas e autoavaliação",
@@ -119,7 +124,8 @@
                 "Soft Skills",
                 "Comunication",
                 "Course"
-            ] 
+            ],
+            "featured":true
         },
         {
             "id": "rocket-001",
@@ -140,7 +146,8 @@
                 "C#",
                 "Backend",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
             "id": "cisco-001",
@@ -157,9 +164,9 @@
             ],
             "tags" : [
                 "Cybersecurity",
-                "Technology",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
             "id": "enap-006",
@@ -179,7 +186,8 @@
                 "Data",
                 "Data Science",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
             "id": "enap-007",
@@ -196,7 +204,8 @@
                 "Data",
                 "Data Science",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
             "id": "enap-008",
@@ -214,14 +223,15 @@
                 "Data",
                 "Data Science",
                 "Course"
-            ]
+            ],
+            "featured":false
         },
         {
             "id": "enap-009",
             "title":"Aplicação do Power BI para Aprimoramento da Gestão",
             "end_date": "16/05/2025",
             "workload": "25",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/enap-009.pdf",
             "institution": "ENAP",
             "content" : [
                 "Obtenção e Transformação de Dados",
@@ -235,7 +245,8 @@
                 "Data Visualization",
                 "Power BI",
                 "Course"
-            ]
+            ],
+            "featured":true
         }
     ]
 }

@@ -16,7 +16,7 @@ body{
     background-color:#151A21;
 }
 ::-webkit-scrollbar-thumb{
-    background-color:#7DD3FC;
+   background-color:#3C7467;
     border-radius: 5px;
 }
 
@@ -53,14 +53,19 @@ p{
 .btn{
     background-color: transparent;
     color:#f5f7fa;
+
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: bold;
+
     width: 200px;
     height: 40px;
+
     border-radius: 5px;
     border: 3px solid #63e6be;
+
     cursor: pointer;
+
     align-items: center;
     justify-content: center;
     display: flex;
@@ -187,4 +192,18 @@ p{
     line-height: 1.2;
 
     white-space: nowrap;
+}
+
+/* Canvas */
+
+canvas{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    background-color:#426B60;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25);
 }
