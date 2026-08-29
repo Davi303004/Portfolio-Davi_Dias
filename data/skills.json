@@ -1,0 +1,163 @@
+{
+    "categories": [{
+        "title": "Python e Suas Bibliotecas",
+        "skill_set": [
+            {
+                "skill" : "Pandas",
+                "nivel" : "Avançado",
+                "proficiency": 90
+            },
+            {
+                "skill" : "Numpy",
+                "nivel" : "Intermediário",
+                "proficiency": 75
+            },
+            {
+                "skill" : "Mathplotlib",
+                "nivel" : "Básico",
+                "proficiency": 35
+            },
+            {
+                "skill": "SQLAlchemy",
+                "nivel": "Básico",
+                "proficiency": 25
+            },
+            {
+                "skill": "Flask",
+                "nivel": "Intermediário",
+                "proficiency": 75
+            },
+            {
+                "skill": "BeautifulSoup",
+                "nivel": "Básico",
+                "proficiency": 15
+            },
+            {
+                "skill": "Sklearn",
+                "nivel": "Básico",
+                "proficiency": 10
+            }]
+    },
+    {
+        "title": "Análise e Tratamento de Dados",
+        "skill_set" : [
+            {
+                "skill": "Data Quality Reports",
+                "nivel" : "Básico",
+                "proficiency": 20
+            },
+            {
+                "skill" : "ETL",
+                "nivel" : "Intermediário",
+                "proficiency": 45
+            },
+            {
+                "skill" : "EDA",
+                "nivel" : "Básico",
+                "proficiency": 25
+            },
+            {
+                "skill" : "Validação de Dados",
+                "nivel" : "Básico",
+                "proficiency": 30
+            },
+            {
+                "skill" : "Automação de Processos",
+                "nivel" : "Básico",
+                "proficiency": 30
+            },
+            {
+                "skill" : "Limpeza de Dados",
+                "nivel" : "Intermediário",
+                "proficiency": 45
+            }]
+    },
+    {
+        "title": "Desenvolvimento Web",
+        "skill_set": [
+            {
+                "skill": "HTML",
+                "nivel":"Intermediário",
+                "proficiency": 75
+            },
+            {
+                "skill": "CSS",
+                "nivel": "Intermediário",
+                "proficiency": 67
+            },
+            {
+                "skill": "JavaScript",
+                "nivel": "Básico",
+                "proficiency": 40
+            }]
+    },
+    {
+        "title": "Desenvolvimento Backend",
+        "skill_set": [
+            {
+                "skill": "C#",
+                "nivel":"Básico",
+                "proficiency": 35
+            },
+            {
+                "skill": "C",
+                "nivel":"Básico",
+                "proficiency": 40
+            },
+            {
+                "skill": "Python",
+                "nivel":"Avançado",
+                "proficiency": 87
+            }]
+    },
+    {
+        "title": "Soft Skills",
+        "skill_set": [
+            {
+                "skill": "Pensamento Analítico",
+                "nivel": "Avançado",
+                "proficiency": 90
+            },
+            {
+                "skill": "Resolução de Problemas",
+                "nivel": "Avançado",
+                "proficiency": 90
+            },
+            {
+                "skill": "Curiosidade Técnica",
+                "nivel": "Avançado",
+                "proficiency": 78
+            },
+            {
+                "skill": "Aprendizado Contínuo",
+                "nivel": "Avançado",
+                "proficiency": 90
+            },
+            {
+                "skill": "Comunicação",
+                "nivel": "Intermediário",
+                "proficiency": 70
+            },
+            {
+                "skill": "Trabalho em Equipe",
+                "nivel": "Intermediário",
+                "proficiency": 67
+            },
+            {
+                "skill": "Organização",
+                "nivel": "Avançado",
+                "proficiency": 75
+            },
+            {
+                "skill": "Produtividade e Proatividade",
+                "nivel": "Avançado",
+                "proficiency": 80
+            },
+            {
+                "skill": "Adaptabilidade",
+                "nivel": "Intermediário",
+                "proficiency": 56
+            }]
+    }
+    ]
+}
