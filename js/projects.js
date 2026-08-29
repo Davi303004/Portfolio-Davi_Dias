@@ -1,3 +1,5 @@
+import {resolvePath} from './utils/path_utils.js'
+
 async function loadProjects(){
     const currentPath = window.location.pathname;
 
@@ -41,7 +43,7 @@ function renderProjects(projects){
 
         card.innerHTML = `
         <img
-            src="${project.image}"
+            src="${resolvePath(project.image)}"
             alt="${project.title}"
             class="card-img">
             
@@ -59,23 +61,29 @@ function renderProjects(projects){
                     target="_blank"
                     rel="noopener noreferrer">
                     <img
-                        onmouseenter="redirectImg(this)"
-                        onmouseleave="githubImg(this)"
-                        src="assets/img/icons/github_icon.png"
+                        src="${resolvePath('assets/img/icons/github_icon.png')}"
                         alt="GitHub">
                 </a>
             </div>
         </div>`;
 
+        const githubIcon = card.querySelector('.project-link img');
+
+        githubIcon.addEventListener('mouseenter',() => {
+                githubIcon.src = resolvePath(
+                    'assets/img/icons/redirect_icon.png'
+                );
+            }
+        );
+        githubIcon.addEventListener('mouseleave',() => {
+                githubIcon.src = resolvePath(
+                    'assets/img/icons/github_icon.png'
+                );
+            }
+        );
+
         container.appendChild(card);
     });
-}
-function redirectImg(obj){
-    obj.src = "assets/img/icons/redirect_icon.png"
-}
-
-function githubImg(obj){
-    obj.src = "assets/img/icons/github_icon.png"
 }
 
 loadProjects().catch(error => {

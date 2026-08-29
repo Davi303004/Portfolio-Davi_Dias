@@ -1,4 +1,5 @@
 import {loadPdfJs} from './utils/pdf_loader.js';
+import {resolvePath} from './utils/path_utils.js'
 
 /* Renderizando a primeira página do PDF por meio da biblioteca PDF.JS */
 
@@ -6,8 +7,9 @@ async function renderPdf(pdfUrl, canvas){
        try {
 
         const pdfjs = await loadPdfJs();
+        const resolvePdfUrl = resolvePath(pdfUrl);
 
-        const pdf = await pdfjs.getDocument(pdfUrl).promise;
+        const pdf = await pdfjs.getDocument(resolvePdfUrl).promise;
         const page = await pdf.getPage(1);
 
         const viewport = page.getViewport({
