@@ -31,17 +31,9 @@ function renderSkills(categories) {
         categoryElement.innerHTML = `
 
             <summary>
-
                 <span>
                     ${category.title}
                 </span>
-
-                <span
-                    class="skill-indicator"
-                    aria-hidden="true">
-                    +
-                </span>
-
             </summary>
 
 

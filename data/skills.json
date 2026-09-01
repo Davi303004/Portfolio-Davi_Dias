@@ -25,7 +25,7 @@
             {
                 "skill": "Flask",
                 "nivel": "Intermediário",
-                "proficiency": 75
+                "proficiency": 55
             },
             {
                 "skill": "BeautifulSoup",
@@ -107,7 +107,7 @@
             {
                 "skill": "Python",
                 "nivel":"Avançado",
-                "proficiency": 87
+                "proficiency": 80
             }]
     },
     {
@@ -116,12 +116,12 @@
             {
                 "skill": "Pensamento Analítico",
                 "nivel": "Avançado",
-                "proficiency": 90
+                "proficiency": 80
             },
             {
                 "skill": "Resolução de Problemas",
                 "nivel": "Avançado",
-                "proficiency": 90
+                "proficiency": 80
             },
             {
                 "skill": "Curiosidade Técnica",
@@ -131,7 +131,7 @@
             {
                 "skill": "Aprendizado Contínuo",
                 "nivel": "Avançado",
-                "proficiency": 90
+                "proficiency": 85
             },
             {
                 "skill": "Comunicação",
