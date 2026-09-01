@@ -12,32 +12,19 @@
     <!-- Estilização Cabeçalho -->
     <link rel="stylesheet" href="css/header.css">
     <!-- Estilização Conteúdo-->
-     <link rel="stylesheet" href="css/home_content.css">
-    
+    <link rel="stylesheet" href="css/home_content.css">
+    <!-- Estilização Rodapé -->
+    <link rel="stylesheet" href="css/footer.css">
+
     <link rel="icon" href="assets/img/favicon.ico" type="image/png">
     <title>Home - Davi Dias</title>
 </head>
 <body>
-    <header>
-        <div class="header-container">
+    
+    <div id="header-container">
+        <!-- O conteúdo do cabeçalho será carregado aqui -->
+    </div>
 
-            <img src="assets/img/Logo.png" alt="Logo" class="logo">
-            
-            <div class="title-container">    
-                <h1 class="site-title">Davi Dias D'Avila</h1>
-                <h2 class="site-subtitle">Desenvolvedor Focado em Dados</h2>
-            </div>
-
-                <ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">Sobre Mim</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#courses">Cursos e Certificações</a></li>
-                </ul>
-
-        </div>
-    </header>
     <div class="section">
         <h1 id="about" class="section-title">Sobre Mim</h1>
     </div>
@@ -130,7 +117,7 @@
     </div>
 
     <div id="skills-container" class="container">
-
+        <!-- JavaScript irá inserir as Skills aqui! -->
     </div>
 
     <div class="section">
@@ -142,7 +129,7 @@
     </div>
 
     <div class="btn-container">
-            <a href="/pages/projects.html" style="text-decoration:none;"><button class="btn" id="btn-project">Mais Projetos <i class="arrow right"></i></button></a>
+            <a href="./pages/projects.html" style="text-decoration:none;"><button class="btn" id="btn-project">Mais Projetos <i class="arrow right"></i></button></a>
     </div>
 
     <div class="section">
@@ -153,13 +140,17 @@
         <!-- JavaScript irá inserir os certificados aqui! -->
     </div>
     <div class="btn-container">
-            <a href="/pages/certificates.html" style="text-decoration:none;"><button class="btn" id="btn-course">Mais Cursos <i class="arrow right"></i></button></a>
+            <a href="./pages/certificates.html" style="text-decoration:none;"><button class="btn" id="btn-course">Mais Cursos <i class="arrow right"></i></button></a>
     </div>
 
-<footer>
-    
-</footer>
 
+    <div id="footer-container">
+        <!-- O conteúdo do rodapé será carregado aqui -->
+    </div>
+
+
+
+<script type="module" src="js/loader.js"></script>
 
 <script src="js/skills.js"></script>
 <script type="module" src="js/certificates.js"></script>

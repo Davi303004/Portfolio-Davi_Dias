@@ -1,0 +1,66 @@
+.site-footer {
+
+    display: grid;
+    grid-template-columns: auto;
+
+    background-color: #1B2028;
+
+    margin-top: 60px;
+    border-top: 1px solid rgba(99, 230, 190, 0.15);
+    padding: 60px 5% 25px;
+
+}
+
+.footer-container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        2fr 1fr 1fr;
+
+    gap: 48px;
+
+}
+
+.footer-bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+/* Tipografia */
+.site-footer h2,
+.site-footer h3 {
+
+    font-family:
+        'Manrope',
+        sans-serif;
+
+    color: #f5f7fa;
+
+}
+.site-footer p,
+.site-footer a {
+
+    font-family:
+        'Inter',
+        sans-serif;
+
+    color: #B8C0CA;
+
+}
+.site-footer a {
+
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+}
+.site-footer a:hover {
+
+    color: #426B60;
+
+}
