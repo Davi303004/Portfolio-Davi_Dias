@@ -5,7 +5,7 @@
             "title":"Aprendendo com Python",
             "end_date": "16/06/2025",
             "workload": "20",
-            "pdf" : "assets/documents/",
+            "pdf" : "assets/documents/enap-001.pdf",
             "institution": "ENAP",
             "content" : [
                 "Variáveis, Operações, Condições",
@@ -69,7 +69,7 @@
             "title":"Introdução ao Excel",
             "end_date": "22/05/2025",
             "workload": "25",
-            "pdf" : "assets/documents/",
+            "pdf" : "assets/documents/enap-003.pdf",
             "institution": "ENAP",
             "content" : [
                 "Visão Geral do Excel",
@@ -88,7 +88,7 @@
             "title":"Excel Intermediário",
             "end_date": "26/05/2025",
             "workload": "30",
-            "pdf" : "assets/documents/",
+            "pdf" : "assets/documents/enap-004.pdf",
             "institution": "ENAP",
             "content" : [
                 "Introdução ao Excel Intermediário",
@@ -132,7 +132,7 @@
             "title":"Introdução ao C#",
             "end_date": "13/12/2025",
             "workload": "7",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/rocket-001.pdf",
             "institution": "Rocketseat",
             "content" : [
                 "Fundamentos do C#",
@@ -154,7 +154,7 @@
             "title":"Introduction to Cybersecurity",
             "end_date": "30/03/2026",
             "workload": "40",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/cisco-001.pdf",
             "institution": "Cisco Academy",
             "content" : [
                 "Conhecimento Basico sobre segurança online e o impacto em potencial",
@@ -173,7 +173,7 @@
             "title":"Introdudução à Ciência de Dados - Conceitos e Ferramentas",
             "end_date": "02/02/2026",
             "workload": "4",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/enap-006.pdf",
             "institution": "ENAP",
             "content" : [
                 "Diferencas entre BI, DW e MD",
@@ -194,7 +194,7 @@
             "title":"Introdudução à Ciência de Dados - Estatísitca Essencial",
             "end_date": "01/07/2026",
             "workload": "6",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/enap-007.pdf",
             "institution": "ENAP",
             "content" : [
                 "Estatística Descritiva",
@@ -212,7 +212,7 @@
             "title":"Introdudução à Ciência de Dados - Tratamento de Dados",
             "end_date": "23/06/2026",
             "workload": "2",
-            "img" : "assets/documents/",
+            "pdf" : "assets/documents/enap-008.pdf",
             "institution": "ENAP",
             "content" : [
                 "Limpeza de Dados",
