@@ -1,5 +1,6 @@
 import {loadPdfJs} from './utils/pdf_loader.js';
 import {resolvePath} from './utils/path_utils.js'
+import {initializeCertificateFilters} from './components/filter_certificates.js'
 
 /* Renderizando a primeira página do PDF por meio da biblioteca PDF.JS */
 
@@ -43,15 +44,10 @@ async function renderPdf(pdfUrl, canvas){
 async function loadCertificates(){
     const currentPath = window.location.pathname;
 
-     const isHomePage =
-        currentPath.endsWith('/') ||
-        currentPath.endsWith('/index.html');
-
     const isCoursePage =
         currentPath.endsWith('/certificates.html');
 
-    const dataPath =
-        currentPath.includes('/pages/') ? '../data/certificates.json' : 'data/certificates.json';
+    const dataPath = currentPath.includes('/pages/') ? '../data/certificates.json' : 'data/certificates.json';
 
     
     const response = await fetch(dataPath);
@@ -64,11 +60,19 @@ async function loadCertificates(){
 
     let certificates = data.certificates;
 
-    if(isHomePage){
-        certificates = certificates.filter(certificate => certificate.featured === true);
-    }
+    if (isCoursePage) {
+    
+                renderCertificates(certificates);
 
-    renderCertificates(certificates);
+                initializeCertificateFilters(certificates,renderCertificates);
+            }
+        else {
+                const featuredCertificates = certificates.filter(
+                    certificate => certificate.featured === true
+                );
+
+                renderCertificates(featuredCertificates);
+            }
 } 
 
 /* Renderizando os cards com os certificados */

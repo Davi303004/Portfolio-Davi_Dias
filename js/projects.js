@@ -1,18 +1,13 @@
 import {resolvePath} from './utils/path_utils.js'
+import {initializeProjectFilters} from './components/filter_projects.js'
 
 async function loadProjects(){
     const currentPath = window.location.pathname;
 
-     const isHomePage =
-        currentPath.endsWith('/') ||
-        currentPath.endsWith('/index.html');
-
     const isProjectsPage =
         currentPath.endsWith('/projects.html');
 
-    const dataPath =
-        currentPath.includes('/pages/') ? '../data/projects.json' : 'data/projects.json';
-
+    const dataPath = currentPath.includes('/pages/') ? '../data/projects.json' : 'data/projects.json';
     
     const response = await fetch(dataPath);
 
@@ -24,11 +19,18 @@ async function loadProjects(){
 
     let projects = data.projects;
 
-    if(isHomePage){
-        projects = projects.filter(project => project.featured === true);
-    }
+    if (isProjectsPage) {
 
-    renderProjects(projects);
+            renderProjects(projects);
+
+            initializeProjectFilters(projects,renderProjects);
+        }
+    else {
+            const featuredProjects = projects.filter(
+                project => project.featured === true
+                );
+            renderProjects(featuredProjects);
+        }
 } 
 
 function renderProjects(projects){
