@@ -54,3 +54,29 @@
     font-weight: 600;
 
 }
+
+/* Responsividade */
+@media (max-width: 480px){
+    .filters-container{
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .filter-button{
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .filters-container{
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .filter-button{
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

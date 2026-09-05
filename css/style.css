@@ -1,5 +1,9 @@
 /* Geral */
 
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #232831;
     font-family: 'Inter', sans-serif;
@@ -7,6 +11,7 @@ body{
     font-weight: 400;
     color: #f5f7fa;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* Scrollbar */
@@ -307,4 +312,84 @@ canvas{
 
     box-shadow:
         0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsividade */
+@media (max-width: 1024px){
+    h1{
+        font-size: 48px;
+    }
+
+    #project-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #course-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    #project-container{
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    #course-container{
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .card{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    h1{
+        font-size: 28px;
+    }
+
+    .btn{
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #project-container,
+    #course-container{
+        padding: 10px;
+    }
+
+    .card-content{
+        padding: 16px;
+    }
+
+    .card img{
+        height: 160px;
+    }
+    .project-link img{
+        width: 28px;
+        height: 28px;
+        
+    }
+    .project-link a{
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+    }
 }

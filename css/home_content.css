@@ -227,4 +227,88 @@
 }
 
 
+/* Responsividade */
 
+@media (max-width: 1024px){
+    .profile-pic{
+        width: 300px;
+        height: 375px;
+    }
+    .social-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .about-container{
+        margin: 0;
+    }
+    .social-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .profile-pic{
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin: 0 auto 15px;
+        display: block;
+    }
+
+    #skills-container{
+        margin-top: 15px;
+    }
+
+    .skill-name{
+        flex: 0 0 80px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px){
+    .section{
+        margin: 15px 0 0 10px;
+    }
+
+    .skill-item{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skill-name{
+        flex: 0 0 100%;
+    }
+
+    .progress-bar{
+        flex: 1;
+    }
+
+    .social-icon{
+        font-size: 13px;
+    }
+}
